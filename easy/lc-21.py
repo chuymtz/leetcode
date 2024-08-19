@@ -1,5 +1,4 @@
 """
-<<<<<<< HEAD
 merge two sorted lists
 
 merge two sorted linked lits and return it as a new sorted list. 
@@ -21,6 +20,10 @@ class Sol:
         
         print(f"{x=}, {y=}")
         
+        mergedList = []
+        dummy = ListNode()
+        dummy.val
+        
         return None
     
     
@@ -30,16 +33,3 @@ y = [1, 3, 4]
 z = Sol().merge(x, y)
 print(z)
 
-=======
-Merge two sorted lists
-
-merge two sorted linked lists nd return is aas a nwe sorted list.
-the new list should be made by spliicing together the nodes of the first two lists
-
-
-x = [1,2,4]
-y = [1,3,4]
-
-
-"""
->>>>>>> 91b24299c70f659fff267d6a523a35213cc147ea
